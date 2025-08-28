@@ -1,5 +1,6 @@
-<footer class="py-10 text-sm text-gray-500">© <span id="year"></span> Tomás Mota LLC. All Rights Reserved.</footer>
-  
+// Ano do footer
+document.getElementById('year').textContent = new Date().getFullYear();
+
 //
 // Mobile Menu
 //
